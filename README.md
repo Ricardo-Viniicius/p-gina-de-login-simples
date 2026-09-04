@@ -2,7 +2,7 @@
 
 Este é um projeto desenvolvido para praticar a criação de interfaces estilizadas e formulários de acesso. Trata-se de uma tela de login com temática oriental/anime, focada em entregar uma experiência visual imersiva utilizando efeitos modernos de CSS como transparência e desfoque (*Glassmorphism*).
 
-![Pr=evia do Projeto](./preview.png)
+[Preview do Projeto](./preview.png)
 
 📝 **Sobre o Projeto**
 
@@ -25,4 +25,3 @@ O objetivo deste projeto foi aplicar conceitos de estilização avançada de for
 
 Você pode acessar a tela de login rodando diretamente no seu navegador através do link abaixo:
 https://ricardo-viniicius.github.io/p-gina-de-login-simples/
-[https://ricardo-viniicius.github.io/tela-de-login/](https:/www.google.com/search?q=https://ricardo-viniicius.github.io/tela-de-login/) *(ajuste o link conforme o seu repositório)*
