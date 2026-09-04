@@ -25,5 +25,4 @@ O objetivo deste projeto foi aplicar conceitos de estilização avançada de for
 
 Você pode acessar a tela de login rodando diretamente no seu navegador através do link abaixo:
 https://ricardo-viniicius.github.io/p-gina-de-login-simples/
-
-[https://ricardo-viniicius.github.io/tela-de-login/](https://www.google.com/search?q=https://ricardo-viniicius.github.io/tela-de-login/) *(ajuste o link conforme o seu repositório)*
+[https://ricardo-viniicius.github.io/tela-de-login/](https:/www.google.com/search?q=https://ricardo-viniicius.github.io/tela-de-login/) *(ajuste o link conforme o seu repositório)*
