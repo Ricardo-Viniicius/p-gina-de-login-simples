@@ -2,7 +2,7 @@
 
 Este é um projeto desenvolvido para praticar a criação de interfaces estilizadas e formulários de acesso. Trata-se de uma tela de login com temática oriental/anime, focada em entregar uma experiência visual imersiva utilizando efeitos modernos de CSS como transparência e desfoque (*Glassmorphism*).
 
-[Preview do Projeto](./preview.png)
+![Preview do Projeto](./preview.png)
 
 📝 **Sobre o Projeto**
 
