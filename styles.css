@@ -1,128 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Serif+Text:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pompiere&display=swap');
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Caveat Brush", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-    }
-
-
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: url("./image/0bffa7ce-50e8-41b3-9813-240b8bc0b157.jpeg");
+body {
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./image/0bffa7ce-50e8-41b3-9813-240b8bc0b157.jpeg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
-.container{
-    width: 420px;
-    background-color: transparent;
-    border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 10px;
-    color: #fff;
-    padding: 30px 40px;
-    box-shadow: rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-    backdrop-filter: blur(2px);
-}
-
-.container h1{
-    font-size: 40px;
-    text-align: center;
-}
-
-.input-box {
-    position: relative;
+.card-login {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
     width: 100%;
-    height: 50px;
-    margin: 30px 0;
+    max-width: 400px;
 }
 
-.input-box input{
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 40px;
-    outline: none;
-    font-size: 16px;
+.input-group .input-group-text {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: none; 
     color: #fff;
-    padding: 20px 45px 20px 20px;
+    font-size: 18px;
 }
 
-.input-box input::placeholder{
-    color: #c5c5c5;
-}
-
-.input-box i {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
-}
-
-.remenber-forgot {
-    display: flex;
-    justify-content: space-between;
-    margin: -15px 0 15px;
-}
-
-.remenber-forgot label input{
-    accent-color: #fff;
-    margin: 5px;
-}
-
-.remenber-forgot a{
-    text-decoration: none;
+.input-group .form-control {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-left: none; 
     color: #fff;
 }
 
-.remenber-forgot a:hover{
-    text-decoration: underline;
-
+.input-group .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
 }
 
-button{
-    width: 100%;
-    height: 50px;
+.input-group:focus-within .input-group-text {
+    border-color: #fff;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.input-group:focus-within .form-control {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-color: #fff;
+    box-shadow: none; 
+    color: #fff;
+}
+
+.form-check-input {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+.form-check-input:checked {
     background-color: #fff;
-    border: none;
-    border-radius: 40px;
-    cursor: pointer;
-    font-size: 16px;
-    color: #333;
-    font-weight: 600;
-    box-shadow: 0 0 10px solid rgba(0, 0, 0, .1);
-    margin-top: 20px;
-
-    }
-
-button:hover{
-    background-color: transparent;
-    border: 2px solid rgba(255, 255, 255, .2);
-    color: #fff;
-    transition: 0.5s;
-}
-
-.register-link{
-    font-size: 15px;
-    text-align: center;
-    margin: 20px 0 15px;
-}
-
-.register-link a{
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;
-}
-
-.register-link a:hover{
-    text-decoration: underline;
+    border-color: #fff;
 }
